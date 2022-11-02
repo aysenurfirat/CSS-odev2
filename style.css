@@ -1,0 +1,136 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: verdana;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 351px;
+    align-self: center;
+    margin-top: 5px;
+}
+.center {
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    width: 90%;
+    height: 65px;
+    padding-top: 12px;
+    
+}
+.center input {
+
+    width: 310px;
+}
+
+.button1 {
+
+    display: inline-block;
+}
+.button2 {
+
+    display: inline-block;
+}
+
+.boxes {
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+.boxes .box1 {
+    display: inline-block;
+    width: 20%;
+    background-color: rgb(70, 112, 151, 0.8);
+    text-align: center;
+    height: 95px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    
+}
+
+.boxes .box2 {
+    display: inline-block;
+    width: 29%;
+    background-color: rgb(70, 112, 151, 0.8);
+    text-align: center;
+    height: 95px;
+    vertical-align: inherit;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.boxes .box3 {
+    display: inline-block;
+    width: 50%;
+    background-color: rgb(70, 112, 151, 0.8);
+    text-align: center;
+    height: 95px;
+    vertical-align: inherit;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-right: 0;
+    margin-right: 0;
+    
+}
+
+ul li {
+
+    list-style-type: none;
+}
+
+.button3 {
+
+    margin-right: 15px;
+}
+
+footer {
+
+    margin-top: 15px;
+    text-align: center;
+    font-size: small;
+}
+
+a {
+
+    color: black;
+    
+}
+
+a:hover {
+
+    text-decoration: none;
+    color: white;
+}
+
+button {
+
+    border: 2px solid rgb(95, 100, 104);
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+}
+
+button:hover {
+    
+    background-color: rgb(70, 112, 151);
+    color: white;
+}
+
+.button3:hover {
+
+    border: 2px solid white;
+}
